@@ -50,6 +50,8 @@ Since limiting the amount of variables down to 7 reduced the amount of missing v
 
 ### Data Summaries
 
+[Distribution of Loan Grades](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dist_grades.PNG?raw=true)
+
 ## Results
 
 The final cumulative logistic regression model had annual income, application type, debt-to-income ratio, home ownership, loan amount, and the number of mortage accounts as the explanatory variables. Below is the ANOVA table for the model and the estimates of each explanatory variable:
