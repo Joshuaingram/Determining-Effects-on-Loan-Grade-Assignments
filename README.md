@@ -50,7 +50,7 @@ Since limiting the amount of variables down to 7 reduced the amount of missing v
 
 ### Data Summaries
 
-[Distribution of Loan Grades](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dist_grades.PNG?raw=true)
+![Distribution of Loan Grades](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dist_grades.PNG?raw=true)
 
 ## Results
 
