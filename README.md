@@ -52,9 +52,24 @@ Since limiting the amount of variables down to 7 reduced the amount of missing v
 
 ![Distribution of Loan Grades](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dist_grades.PNG?raw=true)
 
+![Conditional Distribution of Loan Grades by App Type](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/cond_type.PNG?raw=true)
+
+![Conditional Distribution of Loan Grades by Home Ownership](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/cond_home.PNG?raw=true)
+
+![Density of Loan Amounts by Loan Grades](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dens_grade.PNG?raw=true)
+
+![Density of Loan Amounts by Application Type](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/dens_type.PNG?raw=true)
+
 ## Results
 
 The final cumulative logistic regression model had annual income, application type, debt-to-income ratio, home ownership, loan amount, and the number of mortage accounts as the explanatory variables. Below is the ANOVA table for the model and the estimates of each explanatory variable:
 
+![ANOVA Table](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/anova.PNG?raw=true)
+
+![Estimates](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/estimates.PNG?raw=true)
+
 Finally, see the two graphs below for the probability of a loan being assigned different loan grades by application type. The debt-to-income ratio changes, but home ownership is held at "mortgage", number of mortgage accounts at 1.56, annual income at the mean in the dataset ($78,257.95), and loan amount held at the average in the dataset ($15.125.61).
 
+![Probabilities Individual](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/probs_ind.PNG?raw=true)
+
+![Probabilities Joint](https://github.com/Joshuaingram/Determining-Effects-on-Loan-Grade-Assignments/blob/master/images/probs_joint.PNG?raw=true)
